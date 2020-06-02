@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"><pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512"><pkg:xmlData><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/></Relationships></pkg:xmlData></pkg:part><pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256"><pkg:xmlData><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId11" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header" Target="header2.xml"/><Relationship Id="rId12" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header" Target="header3.xml"/><Relationship Id="rId13" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer2.xml"/><Relationship Id="rId14" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer3.xml"/><Relationship Id="rId15" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header" Target="header4.xml"/><Relationship Id="rId16" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer4.xml"/><Relationship Id="rId17" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/><Relationship Id="rId18" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/glossaryDocument" Target="glossary/document.xml"/><Relationship Id="rId19" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml" Target="../customXml/item1.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering" Target="numbering.xml"/><Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/><Relationship Id="rId4" Type="http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects" Target="stylesWithEffects.xml"/><Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/><Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml"/><Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes" Target="footnotes.xml"/><Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/endnotes" Target="endnotes.xml"/><Relationship Id="rId9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header" Target="header1.xml"/><Relationship Id="rId10" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml"/></Relationships></pkg:xmlData></pkg:part><pkg:part pkg:name="/word/document.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"><pkg:xmlData><w:document mc:Ignorable="w14 wp14" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"><w:body><w:tbl><w:tblPr><w:tblStyle w:val="Tabletight"/><w:tblW w:w="5000" w:type="pct"/><w:jc w:val="center"/><w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/></w:tblPr><w:tblGrid><w:gridCol w:w="11520"/></w:tblGrid><w:tr w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidTr="009B0895"><w:trPr><w:trHeight w:val="4320"/><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="5000" w:type="pct"/></w:tcPr><w:p w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidRDefault="00D329DA" w:rsidP="00B74F0A"/></w:tc></w:tr><w:tr w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidTr="009B0895"><w:trPr><w:trHeight w:hRule="exact" w:val="4320"/><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="5000" w:type="pct"/></w:tcPr><w:sdt><w:sdtPr><w:alias w:val="Category"/><w:tag w:val=""/><w:id w:val="-1267839972"/><w:placeholder><w:docPart w:val="A73205B565BBD745954F1F015829DEB5"/></w:placeholder><w:showingPlcHdr/><w:dataBinding w:prefixMappings="xmlns:ns0='http://purl.org/dc/elements/1.1/' xmlns:ns1='http://schemas.openxmlformats.org/package/2006/metadata/core-properties' " w:xpath="/ns1:coreProperties[1]/ns1:category[1]" w:storeItemID="{6C3C8BC8-F283-45AE-878A-BAB7291924A1}"/><w:text/></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:p w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidRDefault="00C12502" w:rsidP="002742E7"><w:pPr><w:pStyle w:val="Covercoursecode"/></w:pPr><w:r w:rsidRPr="00E35449"><w:rPr><w:rStyle w:val="PlaceholderText"/></w:rPr><w:t>Code du cours</w:t></w:r></w:p></w:sdtContent></w:sdt><w:sdt><w:sdtPr><w:alias w:val="Subject"/><w:tag w:val=""/><w:id w:val="512890034"/><w:placeholder><w:docPart w:val="289430B07EA1804B88DDC3BB1E55B4E5"/></w:placeholder><w:showingPlcHdr/><w:dataBinding w:prefixMappings="xmlns:ns0='http://purl.org/dc/elements/1.1/' xmlns:ns1='http://schemas.openxmlformats.org/package/2006/metadata/core-properties' " w:xpath="/ns1:coreProperties[1]/ns0:subject[1]" w:storeItemID="{6C3C8BC8-F283-45AE-878A-BAB7291924A1}"/><w:text/></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:p w:rsidR="00A407A6" w:rsidRPr="009B5F27" w:rsidRDefault="00C12502" w:rsidP="00C12502"><w:pPr><w:pStyle w:val="Covercoursetitle"/></w:pPr><w:r w:rsidRPr="00E35449"><w:rPr><w:rStyle w:val="PlaceholderText"/></w:rPr><w:t>Titre du cours</w:t></w:r></w:p></w:sdtContent></w:sdt></w:tc></w:tr><w:tr w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidTr="009B0895"><w:trPr><w:trHeight w:hRule="exact" w:val="4320"/><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="5000" w:type="pct"/></w:tcPr><w:sdt><w:sdtPr><w:alias w:val="Title"/><w:tag w:val=""/><w:id w:val="-148828999"/><w:placeholder><w:docPart w:val="5E9729B36491D543A7DBB3CC309D8094"/></w:placeholder><w:showingPlcHdr/><w:dataBinding w:prefixMappings="xmlns:ns0='http://purl.org/dc/elements/1.1/' xmlns:ns1='http://schemas.openxmlformats.org/package/2006/metadata/core-properties' " w:xpath="/ns1:coreProperties[1]/ns0:title[1]" w:storeItemID="{6C3C8BC8-F283-45AE-878A-BAB7291924A1}"/><w:text/></w:sdtPr><w:sdtEndPr/><w:sdtContent><w:p w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidRDefault="008A5281" w:rsidP="008A5281"><w:pPr><w:pStyle w:val="Covermanualtitle"/></w:pPr><w:r w:rsidRPr="00E35449"><w:rPr><w:rStyle w:val="PlaceholderText"/></w:rPr><w:t>Titre du manuel</w:t></w:r></w:p></w:sdtContent></w:sdt></w:tc></w:tr><w:tr w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidTr="009B0895"><w:trPr><w:trHeight w:hRule="exact" w:val="360"/><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="5000" w:type="pct"/><w:vAlign w:val="bottom"/></w:tcPr><w:p w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidRDefault="00D329DA" w:rsidP="003F1810"><w:pPr><w:pStyle w:val="Coverversionnumber"/></w:pPr><w:r w:rsidRPr="009B5F27"><w:t>Version</w:t></w:r><w:r w:rsidR="00964D86" w:rsidRPr="009B5F27"><w:t> </w:t></w:r><w:r w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="begin"><w:ffData><w:name w:val=""/><w:enabled/><w:calcOnExit w:val="0"/><w:textInput><w:default w:val="1.01"/></w:textInput></w:ffData></w:fldChar></w:r><w:r w:rsidRPr="009B5F27"><w:instrText xml:space="preserve"> FORMTEXT </w:instrText></w:r><w:r w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="separate"/></w:r><w:r w:rsidR="004F2099" w:rsidRPr="009B5F27"><w:rPr><w:noProof/></w:rPr><w:t>1.01</w:t></w:r><w:r w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="end"/></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidTr="009B0895"><w:trPr><w:trHeight w:hRule="exact" w:val="12960"/><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="5000" w:type="pct"/><w:tcMar><w:left w:w="1080" w:type="dxa"/><w:right w:w="1080" w:type="dxa"/></w:tcMar><w:vAlign w:val="bottom"/></w:tcPr><w:p w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidRDefault="00F43C84" w:rsidP="00FB667D"><w:r w:rsidRPr="009B5F27"><w:lastRenderedPageBreak/><w:t>© </w:t></w:r><w:r w:rsidR="009B0895" w:rsidRPr="009B5F27"><w:t>École de la fonction publique du Canada (</w:t></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="begin"><w:ffData><w:name w:val=""/><w:enabled/><w:calcOnExit w:val="0"/><w:textInput><w:default w:val="20xx"/></w:textInput></w:ffData></w:fldChar></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:instrText xml:space="preserve"> FORMTEXT </w:instrText></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="separate"/></w:r><w:r w:rsidR="004F2099" w:rsidRPr="009B5F27"><w:rPr><w:noProof/></w:rPr><w:t>20xx</w:t></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="end"/></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:t>,</w:t></w:r><w:r w:rsidR="001E4221" w:rsidRPr="009B5F27"><w:t xml:space="preserve"> </w:t></w:r><w:r w:rsidR="00FB667D" w:rsidRPr="009B5F27"><w:t>r</w:t></w:r><w:r w:rsidR="001E4221" w:rsidRPr="009B5F27"><w:t>évisé en</w:t></w:r><w:r w:rsidRPr="009B5F27"><w:t> </w:t></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="begin"><w:ffData><w:name w:val=""/><w:enabled/><w:calcOnExit w:val="0"/><w:textInput><w:default w:val="20xx"/></w:textInput></w:ffData></w:fldChar></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:instrText xml:space="preserve"> FORMTEXT </w:instrText></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="separate"/></w:r><w:r w:rsidR="004F2099" w:rsidRPr="009B5F27"><w:rPr><w:noProof/></w:rPr><w:t>20xx</w:t></w:r><w:r w:rsidR="00D329DA" w:rsidRPr="009B5F27"><w:fldChar w:fldCharType="end"/></w:r><w:r w:rsidR="009B0895" w:rsidRPr="009B5F27"><w:t>)</w:t></w:r></w:p></w:tc></w:tr></w:tbl><w:p w:rsidR="00101069" w:rsidRPr="009B5F27" w:rsidRDefault="00101069" w:rsidP="009B0895"><w:pPr><w:sectPr w:rsidR="00101069" w:rsidRPr="009B5F27" w:rsidSect="009B0895"><w:headerReference w:type="first" r:id="rId9"/><w:footerReference w:type="first" r:id="rId10"/><w:type w:val="oddPage"/><w:pgSz w:w="12240" w:h="15840" w:code="1"/><w:pgMar w:top="1440" w:right="360" w:bottom="1080" w:left="360" w:header="720" w:footer="720" w:gutter="0"/><w:cols w:space="720"/><w:titlePg/><w:docGrid w:linePitch="360"/></w:sectPr></w:pPr><w:bookmarkStart w:id="0" w:name="_Ref479085245"/></w:p><w:p w:rsidR="00D329DA" w:rsidRPr="009B5F27" w:rsidRDefault="00D329DA" w:rsidP="009418F2"><w:pPr><w:pStyle w:val="Heading1"/><w:jc w:val="center"/></w:pPr><w:bookmarkStart w:id="1" w:name="_Ref490653483"/><w:bookmarkStart w:id="2" w:name="_Ref490653490"/><w:bookmarkStart w:id="3" w:name="_Toc404494567"/><w:r w:rsidRPr="009B5F27"><w:lastRenderedPageBreak/><w:t xml:space="preserve">Table </w:t></w:r><w:r w:rsidR="001E4221" w:rsidRPr="009B5F27"><w:t>des matières</w:t></w:r><w:bookmarkEnd w:id="0"/><w:bookmarkEnd w:id="1"/><w:bookmarkEnd w:id="2"/><w:bookmarkEnd w:id="3"/></w:p><w:p w:rsidR="007C1A96" w:rsidRDefault="00434110"><w:pPr><w:pStyle w:val="TOC1"/><w:rPr><w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/><w:b w:val="0"/><w:bCs w:val="0"/><w:smallCaps w:val="0"/><w:noProof/><w:color w:val="auto"/><w:lang w:val="en-CA" w:eastAsia="ja-JP"/></w:rPr></w:pPr><w:r w:rsidRPr="009B5F27"><w:rPr><w:rFonts w:ascii="Futura Md BT" w:hAnsi="Futura Md BT"/><w:caps/><w:sz w:val="28"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r w:rsidRPr="009B5F27"><w:rPr><w:rFonts w:ascii="Futura Md BT" w:hAnsi="Futura Md BT"/></w:rPr><w:instrText xml:space="preserve"> TOC \o "1-2" \h \z \u </w:instrText></w:r><w:r w:rsidRPr="009B5F27"><w:rPr><w:rFonts w:ascii="Futura Md BT" w:hAnsi="Futura Md BT"/><w:caps/><w:sz w:val="28"/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:bookmarkStart w:id="4" w:name="_GoBack"/><w:bookmarkEnd w:id="4" />
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:t>Table des matières</w:t>
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:tab />
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:fldChar w:fldCharType="begin" />
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:instrText xml:space="preserve"> PAGEREF _Toc404494567 \h </w:instrText>
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:fldChar w:fldCharType="separate" />
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:t>3</w:t>
+</w:r>
+<w:r w:rsidR="007C1A96">
+	<w:rPr>
+		<w:noProof />
+	</w:rPr>
+	<w:fldChar w:fldCharType="end" />
+</w:r>
+</w:p>
+<w:p w:rsidR="007C1A96" w:rsidRDefault="007C1A96">
+	<w:pPr>
+		<w:pStyle w:val="TOC1" />
+		<w:rPr>
+			<w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi" />
+			<w:b w:val="0" />
+			<w:bCs w:val="0" />
+			<w:smallCaps w:val="0" />
+			<w:noProof />
+			<w:color w:val="auto" />
+			<w:lang w:val="en-CA" w:eastAsia="ja-JP" />
+		</w:rPr>
+	</w:pPr>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:t>Titre</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:tab />
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:fldChar w:fldCharType="begin" />
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:instrText xml:space="preserve"> PAGEREF _Toc404494568 \h </w:instrText>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:fldChar w:fldCharType="separate" />
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:t>5</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:fldChar w:fldCharType="end" />
+	</w:r>
+</w:p>
+<w:p w:rsidR="007C1A96" w:rsidRDefault="007C1A96">
+	<w:pPr>
+		<w:pStyle w:val="TOC2" />
+		<w:rPr>
+			<w:rFonts w:eastAsiaTheme="minorEastAsia" w:cstheme="minorBidi" />
+			<w:noProof />
+			<w:szCs w:val="24" />
+			<w:lang w:val="en-CA" w:eastAsia="ja-JP" />
+		</w:rPr>
+	</w:pPr>
+	<w:r w:rsidRPr="005037D2">
+		<w:rPr>
+			<w:noProof />
+			<w:lang w:val="en-CA" />
+		</w:rPr>
+		<w:t>Sous-titre</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:tab />
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:fldChar w:fldCharType="begin" />
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:instrText xml:space="preserve"> PAGEREF _Toc404494569 \h </w:instrText>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:fldChar w:fldCharType="separate" />
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:t>5</w:t>
+	</w:r>
+	<w:r>
+		<w:rPr>
+			<w:noProof />
+		</w:rPr>
+		<w:fldChar w:fldCharType="end" />
+	</w:r>
+</w:p>
+<w:p w:rsidR="009B5F27" w:rsidRPr="009B5F27" w:rsidRDefault="00434110" w:rsidP="00D329DA">
+	<w:pPr>
+		<w:sectPr w:rsidR="009B5F27" w:rsidRPr="009B5F27" w:rsidSect="009B5F27">
+			<w:headerReference w:type="even" r:id="rId11" />
+			<w:headerReference w:type="default" r:id="rId12" />
+			<w:footerReference w:type="even" r:id="rId13" />
+			<w:footerReference w:type="default" r:id="rId14" />
+			<w:headerReference w:type="first" r:id="rId15" />
+			<w:footerReference w:type="first" r:id="rId16" />
+			<w:type w:val="oddPage" />
+			<w:pgSz w:w="12240" w:h="15840" w:code="1" />
+			<w:pgMar w:top="1440" w:right="1440" w:bottom="1080" w:left="1440" w:header="720" w:footer="720" w:gutter="0" />
+			<w:cols w:space="720" />
+			<w:docGrid w:linePitch="360" />
+		</w:sectPr>
+	</w:pPr>
+	<w:r w:rsidRPr="009B5F27">
+		<w:rPr>
+			<w:rFonts w:ascii="Futura Md BT" w:eastAsia="Times New Roman" w:hAnsi="Futura Md BT" w:cs="Arial" />
+		</w:rPr>
+		<w:fldChar w:fldCharType="end" />
+	</w:r>
+</w:p>
+<w:p w:rsidR="00A558C8" w:rsidRPr="00A558C8" w:rsidRDefault="007C1A96" w:rsidP="007C1A96">
+	<w:pPr>
+		<w:pStyle w:val="Heading1" />
+		<w:rPr>
+			<w:lang w:val="en-CA" />
+		</w:rPr>
+	</w:pPr>
+	<w:bookmarkStart w:id="5" w:name="_Ref478481322" />
+	<w:bookmarkStart w:id="6" w:name="_Toc373412611" />
+	<w:bookmarkStart w:id="7" w:name="_Toc493866390" />
+	<w:bookmarkStart w:id="8" w:name="_Toc404494568" />
+	<w:r>
+		<w:lastRenderedPageBreak />
+		<w:t>Titre</w:t>
+	</w:r>
+	<w:bookmarkEnd w:id="7" />
+	<w:bookmarkEnd w:id="8" />
+</w:p>
+<w:p w:rsidR="00A558C8" w:rsidRPr="00A558C8" w:rsidRDefault="007C1A96" w:rsidP="007C1A96">
+	<w:pPr>
+		<w:pStyle w:val="Heading2" />
+		<w:rPr>
+			<w:lang w:val="en-CA" />
+		</w:rPr>
+	</w:pPr>
+	<w:bookmarkStart w:id="9" w:name="_Toc404494569" />
+	<w:r>
+		<w:rPr>
+			<w:lang w:val="en-CA" />
+		</w:rPr>
+		<w:t>Sous-titre</w:t>
+	</w:r>
+	<w:bookmarkEnd w:id="9" />
+</w:p>
+<w:bookmarkEnd w:id="5" />
+<w:bookmarkEnd w:id="6" />
