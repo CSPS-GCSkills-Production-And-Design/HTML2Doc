@@ -4,6 +4,9 @@ TITLE SNAP! HTML-2-Doc
 SETLOCAL ENABLEDELAYEDEXPANSION
 IF EXIST "module0" (
 	REN module0 module0.bak
+	MD module0
+	SET rootDir=module0
+	) ELSE (
 IF EXIST "module1" (
 	REN module1 module1.bak
 	MD module1
@@ -58,7 +61,7 @@ ECHO:
 ECHO           +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++. H2D.2
 ECHO:
 ECHO:
-ECHO   Veuillez glisser/dï¿½placer le premier fichier du cours, cliquez sur cette fenï¿½tre ï¿½ nouveau et pressez la touche ï¿½ Retour ï¿½
+ECHO   Veuillez glisser/d‚placer le premier fichier du cours, cliquez sur cette fenˆtre … nouveau et pressez la touche ® Retour ¯
 ECHO   Please Drag/Drop the first file of the course here, click this window again and press Enter
 ECHO:
 SET /P "initialFile="
