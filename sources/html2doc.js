@@ -1,4 +1,4 @@
-/* Custom HTML2Doc Script Copyright Canada 2018 Developped by Christian Sabourin */
+/* Custom HTML2Doc Script Copyright Canada 2020 Developped by Christian Sabourin */
 // Email: Christian.Sabourin@Canada.ca
 (function(H2Dcontext) { // H2Dcontext refers to 'this' context from the Browser's bookmark
     $('.wb-inv').remove();
