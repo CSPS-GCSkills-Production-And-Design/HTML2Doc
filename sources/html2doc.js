@@ -13491,7 +13491,7 @@ module.exports = {
     $('.wb-inv').remove();
     $('.spinner').remove();
     $("#dynamic_content").find("script").remove();
-    $("#dynamic_content").find("*").show();
+    $("#dynamic_content").find("*").not(".MsoNormal").show();
     var imagesOnPage = new Object;
     var sourceDoc = 'http://skynet-01.csps-efpc.com/_toolbox/HTML2Doc/sources/';
     var lang = $('html').attr('lang') || prompt("Language (en/fr)", "en"); // Take language from the Framework, if missing prompt the user
