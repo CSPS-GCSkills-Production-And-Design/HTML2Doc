@@ -1,4 +1,4 @@
-/* Custom HTML2Doc Script Copyright Canada 2020 Developped by Christian Sabourin */
+﻿/* Custom HTML2Doc Script Copyright Canada 2020 Developped by Christian Sabourin */
 // Email: Christian.Sabourin@Canada.ca
 
 /*! jQuery v3.5.1 -ajax,-ajax/jsonp,-ajax/load,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-deprecated/ajax-event-alias,-effects,-effects/Tween,-effects/animatedSelector | (c) JS Foundation and other contributors | jquery.org/license */
@@ -13503,6 +13503,10 @@ module.exports = {
         "ToC": {
             "en": "Table of Contents",
             "fr": "Table des matières"
+        },
+        "correctAnswer":{
+        	"en":"Correct answer",
+        	"fr":"Bonne réponse"
         }
     };
     //toRemove is the list of selectors that generates the different quick toggles that mark elements for removal.
@@ -13518,10 +13522,11 @@ module.exports = {
         "glyphs": { "selector": ".glyphicon,.fa", "label": "Glyphicons" }
     };
     var streamsPresets = {
-        "learner": { "toKeep": { "images": false, "instructions": true, "quizs": true, "answers": false, "quizNav": false, "pageNumbers": true, "endImages": false, "rightWrong": false, "glyphs": false }, "WordComments": false },
-        "instructor": { "toKeep": { "images": false, "instructions": true, "quizs": true, "answers": true, "quizNav": false, "pageNumbers": true, "endImages": false, "rightWrong": true, "glyphs": false }, "WordComments": false },
-        "storyboard": { "toKeep": { "images": true, "instructions": true, "quizs": true, "answers": true, "quizNav": false, "pageNumbers": true, "endImages": true, "rightWrong": false, "glyphs": false }, "WordComments": true },
-        "custom": { "toKeep": { "images": true, "instructions": true, "quizs": true, "answers": true, "quizNav": true, "pageNumbers": true, "endImages": true, "rightWrong": false, "glyphs": false }, "WordComments": true }
+        "learner": { "toKeep": { "images": false, "instructions": true, "quizs": true, "answers": false, "quizNav": false, "pageNumbers": true, "endImages": false, "rightWrong": false, "glyphs": false }, "WordComments": false,"showAnswers":false },
+        "printable": { "toKeep": { "images": false, "instructions": true, "quizs": true, "answers": false, "quizNav": false, "pageNumbers": true, "endImages": false, "rightWrong": false, "glyphs": false }, "WordComments": false,"showAnswers":true },
+        "instructor": { "toKeep": { "images": false, "instructions": true, "quizs": true, "answers": true, "quizNav": false, "pageNumbers": true, "endImages": false, "rightWrong": true, "glyphs": false }, "WordComments": false,"showAnswers":true },
+        "storyboard": { "toKeep": { "images": true, "instructions": true, "quizs": true, "answers": true, "quizNav": false, "pageNumbers": true, "endImages": true, "rightWrong": false, "glyphs": false }, "WordComments": true,"showAnswers":true },
+        "custom": { "toKeep": { "images": true, "instructions": true, "quizs": true, "answers": true, "quizNav": true, "pageNumbers": true, "endImages": true, "rightWrong": false, "glyphs": false }, "WordComments": true,"showAnswers":false }
     };
 
     function lastClean() {
@@ -13689,18 +13694,18 @@ span.SpellE {mso-style-name:""; 	mso-spl-e:yes;}
 .MsoChpDefault {mso-style-type:export-only; 	mso-default-props:yes; 	font-family:"Calibri",sans-serif; 	mso-ascii-font-family:Calibri; 	mso-ascii-theme-font:minor-latin; 	mso-fareast-font-family:Calibri; 	mso-fareast-theme-font:minor-latin; 	mso-hansi-font-family:Calibri; 	mso-hansi-theme-font:minor-latin; 	mso-bidi-font-family:"Times New Roman"; 	mso-bidi-theme-font:minor-bidi; 	mso-fareast-language:EN-US;}
 .MsoPapDefault {mso-style-type:export-only; 	margin-bottom:8.0pt; 	line-height:107%;}
  /* Page Definitions */
- @page {mso-footnote-separator:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fs; 	mso-footnote-continuation-separator:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fcs; 	mso-endnote-separator:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") es; 	mso-endnote-continuation-separator:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ecs; 	mso-facing-pages:yes;}
-@page WordSection1 {size:8.5in 11.0in; 	margin:1.0in 1.0in .75in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-title-page:yes; 	mso-first-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fh1; 	mso-paper-source:0;}
+ @page {mso-footnote-separator:url("header.htm") fs; 	mso-footnote-continuation-separator:url("header.htm") fcs; 	mso-endnote-separator:url("header.htm") es; 	mso-endnote-continuation-separator:url("header.htm") ecs; 	mso-facing-pages:yes;}
+@page WordSection1 {size:8.5in 11.0in; 	margin:1.0in 1.0in .75in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-title-page:yes; 	mso-first-header:url("header.htm") fh1; 	mso-paper-source:0;}
 div.WordSection1 {page:WordSection1;}
-@page WordSection2 {size:8.5in 11.0in; 	margin:1.0in 1.0in .75in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") eh2; 	mso-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") h2; 	mso-even-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ef2; 	mso-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") f2; 	mso-first-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fh2; 	mso-first-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ff2; 	mso-paper-source:0;}
+@page WordSection2 {size:8.5in 11.0in; 	margin:1.0in 1.0in .75in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("header.htm") eh2; 	mso-header:url("header.htm") h2; 	mso-even-footer:url("header.htm") ef2; 	mso-footer:url("header.htm") f2; 	mso-first-header:url("header.htm") fh2; 	mso-first-footer:url("header.htm") ff2; 	mso-paper-source:0;}
 div.WordSection2 {page:WordSection2;}
-@page WordSection3 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") eh2; 	mso-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") h2; 	mso-even-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ef2; 	mso-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") f2; 	mso-first-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fh2; 	mso-first-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ff2; 	mso-paper-source:0;}
+@page WordSection3 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("header.htm") eh2; 	mso-header:url("header.htm") h2; 	mso-even-footer:url("header.htm") ef2; 	mso-footer:url("header.htm") f2; 	mso-first-header:url("header.htm") fh2; 	mso-first-footer:url("header.htm") ff2; 	mso-paper-source:0;}
 div.WordSection3 {page:WordSection3;}
-@page WordSection4 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") eh2; 	mso-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") h2; 	mso-even-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ef2; 	mso-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") f2; 	mso-first-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fh2; 	mso-first-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ff2; 	mso-paper-source:0;}
+@page WordSection4 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("header.htm") eh2; 	mso-header:url("header.htm") h2; 	mso-even-footer:url("header.htm") ef2; 	mso-footer:url("header.htm") f2; 	mso-first-header:url("header.htm") fh2; 	mso-first-footer:url("header.htm") ff2; 	mso-paper-source:0;}
 div.WordSection4 {page:WordSection4;}
-@page WordSection5 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") eh2; 	mso-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") h2; 	mso-even-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ef2; 	mso-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") f2; 	mso-first-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fh2; 	mso-first-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ff2; 	mso-paper-source:0;}
+@page WordSection5 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("header.htm") eh2; 	mso-header:url("header.htm") h2; 	mso-even-footer:url("header.htm") ef2; 	mso-footer:url("header.htm") f2; 	mso-first-header:url("header.htm") fh2; 	mso-first-footer:url("header.htm") ff2; 	mso-paper-source:0;}
 div.WordSection5 {page:WordSection5;}
-@page WordSection6 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") eh2; 	mso-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") h2; 	mso-even-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ef2; 	mso-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") f2; 	mso-first-header:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") fh2; 	mso-first-footer:url("I130%20-%20Manuel%20du%20participant%20-%20Version%20imprimable_files/header.htm") ff2; 	mso-paper-source:0;}
+@page WordSection6 {size:8.5in 11.0in; 	margin:1.0in 1.0in 1.0in 1.0in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-even-header:url("header.htm") eh2; 	mso-header:url("header.htm") h2; 	mso-even-footer:url("header.htm") ef2; 	mso-footer:url("header.htm") f2; 	mso-first-header:url("header.htm") fh2; 	mso-first-footer:url("header.htm") ff2; 	mso-paper-source:0;}
 div.WordSection6 {page:WordSection6;}
  /* List Definitions */
  @list l0 {mso-list-id:-120; 	mso-list-type:simple; 	mso-list-template-ids:1140384620;}
@@ -14147,9 +14152,12 @@ function recursiva_img(allImg,i, funcCallback){
         $("iframe,textarea,progress").remove();
         $(".qs-answers ul").replaceTagName("ol");
         $("div.qs-answers").replaceTagName("ol");
+        if (streamsPresets[selectedStream].showAnswers) {
+    $('input.ra').closest("label").append(`(${insert.correctAnswer[lang]})`);
+    $('[data-ra=ra]').wrapInner('<strong></strong>');
+    $('input.ra').closest('p').wrapInner('<strong></strong>')
+		}
         $("label.qs-answer").replaceTagName("li");
-        $('[data-ra=ra]').wrapInner('<strong></strong>');
-        $('input.ra').closest('p').wrapInner('<strong></strong>');
         $(".qs-answers input").remove();
         $(".qs-elearning-activity").removeClass("qs-elearning-activity");
         $('.qs-exercise').shiftHeadingLevels(2);
@@ -14335,6 +14343,7 @@ function recursiva_img(allImg,i, funcCallback){
     <div id='HTMLLinks'></div>
     <div id='HTML2Doc'> <div id='stepPrepare'><p> Select Conversion stream:<ul class='list-unstyled'>
         <li><input type='radio' name='Stream' id='StreamLearner' checked='checked' value='learner'><label for='StreamLearner'>Learner version</label></li>
+        <li><input type='radio' name='Stream' id='StreamPrintable' value='printable'><label for='StreamPrintable'>Printable version</label></li>
         <li><input type='radio' name='Stream' id='StreamInstructor' value='instructor'><label for='StreamInstructor'>Instructor version</label></li>
         <li><input type='radio' name='Stream' id='StreamStoryboard' value='storyboard'><label for='StreamStoryboard'>Storyboard version</label></li>
         <li><input type='radio' name='Stream' id='StreamCustom' value='custom'><label for='StreamCustom'>Custom version</label></li>

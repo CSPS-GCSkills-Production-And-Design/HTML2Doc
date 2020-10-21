@@ -132,8 +132,8 @@ REM ============================================================================
  ECHO:)>zz-ben.txt
  REM ===========================================================================================================
 REM Create bottom file
-(ECHO.
-ECHO )>batch_shiftfooters.txt
+(ECHO:
+ECHO:)>batch_shiftfooters.txt
 REM ===========================================================================================================
 REM Create CSS file
 (ECHO *{border:1px solid^;border-color:transparent^;float:none^;clear:both}@keyframes glowing{50%%{text-shadow:0 0 .1em,0 0 .3em}}#HTML2Doc summary{text-align:right^;margin:auto^;width:max-content^;background-color:hsla^(200,50%%,50%%,1^)}.cleanupMode{border-radius:10px^;border:1px solid transparent^;padding:.5em^;background:linear-gradient^(white,white^) padding-box,repeating-linear-gradient^(-45deg,black 0,black 25%%,transparent 0,transparent 50%%^) 0 / .6em .6em^;animation:ants 36s linear infinite^;cursor:pointer}.setForRemoval{box-shadow:0 0 1px 10px hsla^(1,100%%,50%%,.5^) inset^;color:grey^;filter:blur^(1px^)^;opacity:.2^;background-color:rgba^(255,50%%,0%%,.5^)}@keyframes ants{to{background-position:100%% 100%%}}#HTML2Doc strong{font-size:130%%^;font-weight:540}#HTML2Doc{font-family:monospace^;font-size:100%%^;position:fixed^;width:350px^;height:min-content^;background:hsla^(200,30%%,70%%,.85^)^;padding:.5em^;border-radius:10px^;box-shadow:0 20px 16px -8px hsla^(0,0%%,0%%,.45^),20px 20px 100px -8px hsla^(0,0%%,100%%,.65^) inset^;border:1px solid #000^;z-index:1000^;top:15px^;right:15px}.unprepared{display:none}#HTML2Doc button{transition:.8s^;width:min-content^;padding:.4em .8em^;border:2px solid transparent^;border-bottom-width:0^;margin:.25em auto^;background-color:hsla^(200,10%%,50%%,.85^)^;background-origin:border-box^;color:#fff^;font-size:100%%^;font-weight:700^;white-space:nowrap^;cursor:pointer^;text-shadow:0 -.05em .05em rgba^(0,0,0,.5^)^;border-radius:.5em^;box-shadow:0 2px rgba^(255,255,255,.7^) inset,0 .5em rgba^(255,255,255,.2^) inset,0 -.2em .5em rgba^(0,0,0,.5^) inset,0 .05em .1em #000}#HTML2Doc button:hover,#HTML2Doc #Step2+label:hover{background-color:hsla^(200,50%%,50%%,.85^)}#HTML2Doc details{margin:2em^;text-align:left^;margin:auto^;width:min-content^;font-weight:400^;box-shadow:2px 2px 8px -2px^;padding:.5em}#HTML2Doc summary{font-weight:800^;padding:1em^;margin:-.5em}#HTML2Doc #Step2+label{font:400 11px system-ui^;display:inline-block^;width:min-content^;padding:.4em .8em^;border:2px solid transparent^;border-bottom-width:0^;margin:.25em auto^;background-color:hsla^(200,10%%,50%%,.85^)^;background-origin:border-box^;color:#fff^;font-size:100%%^;font-weight:700^;white-space:nowrap^;cursor:pointer^;text-shadow:0 -.05em .05em rgba^(0,0,0,.5^)^;border-radius:.5em^;box-shadow:0 2px rgba^(255,255,255,.7^) inset,0 .5em rgba^(255,255,255,.2^) inset,0 -.2em .5em rgba^(0,0,0,.5^) inset,0 .05em .1em #000}#HTML2Doc #Step2{position:absolute^;clip:rect^(0,0,0,0^)}#HTML2Doc #Step2:checked+label,#HTML2Doc #Step2:active+label{color:#ffc^;animation:glowing 3s infinite linear^;box-shadow:0 -2px rgba^(0,0,0,.7^) inset,0 -.5em rgba^(0,0,0,.2^) inset,0 .2em -.5em rgba^(0,255,255,.5^) inset,0 .05em .1em #fff^;border-color:rgba^(0,0,0,.3^)^;background:#0D0})>HTML2Doc.css
@@ -302,12 +302,10 @@ IF "!SkipCheck!"=="0" SET /A loadLine+=1
 CALL SET "show=%%chunk[!loadLine!]%%"
 ECHO:!show!
 	)
-	IF "%hadTopic%"=="TRUE" CALL :EndOfFile %oldModule%x%oldTopic% %newFile%& REM This is after the loop !newFile! -----o End of Topic !oldModule!-!oldTopic!
-	CALL :EndOfFile %oldModule% %newFile%& REM --o End of Module !oldModule! --- !newFile!
+	CALL :EndOfFile !SnapPage! %newFile%& REM This is after the loop !newFile! -----o End of Topic !oldModule!-!oldTopic!
 REM Merge all files into a single file.
 COPY %filePrefix%*_%lang%.html %initialFile%_%lang%.html > NUL || (PAUSE && EXIT /B 1)
 TYPE batch_shiftheaders.txt >> %initialFile%_%lang%.html || (PAUSE && EXIT /B 1)
-REM TYPE html2doc.js >> %initialFile%_%lang%.html || (PAUSE && EXIT /B 1)
 TYPE batch_shiftfooters.txt >> %initialFile%_%lang%.html || (PAUSE && EXIT /B 1)
 REM Switch language
 IF %SnapRun% EQU 1 (
@@ -346,13 +344,8 @@ EXIT /B
 REM END of Program
 REM ===========================================================================================================
 :BeforeFile
-TYPE %1 >> %1.tmp || (PAUSE && EXIT /B 1)
-MOVE /y "%1.tmp" "%1" > NUL || (PAUSE && EXIT /B 1)
-EXIT /B
-:FirstOfFile
-(
-
-)>>%2.tmp
+TYPE %1 >> %1.tmp
+MOVE /y "%1.tmp" "%1" > NUL
 EXIT /B
 :TopOfFile
 SET PASS=%4
